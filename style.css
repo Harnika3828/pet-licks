@@ -2,7 +2,20 @@
    Inspired by Imagerie-Films.fr
    Pure CSS — no JS required (but JS can add cursor parallax if you want later)
 */
+/* Fix for header overlap */
+body {
+  padding-top: 100px; /* Adjust based on your header height */
+}
 
+/* Alternatively, if you want more control: */
+main {
+  padding-top: 100px;
+}
+
+/* Remove any margin-top from the help-hero section */
+.help-hero {
+  margin-top: 0 !important;
+}
 :root {
   --deep: #0d0d0f;
   --cream: #f5f3ee;
