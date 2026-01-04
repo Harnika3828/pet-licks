@@ -7,9 +7,9 @@ body {
   padding-top: 100px; /* Adjust based on your header height */
 }
 
-/* Alternatively, if you want more control: */
+/* Instead of body padding, add margin to main */
 main {
-  padding-top: 100px;
+  margin-top: 86px;
 }
 
 /* Remove any margin-top from the help-hero section */
